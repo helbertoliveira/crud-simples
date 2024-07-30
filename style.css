@@ -1,0 +1,201 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16pt;
+}
+
+body {
+    background-color: rgb(135, 155, 245);
+}
+
+#btn {
+    width: 250px;
+    height: 60px;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    border-radius: 5px 5px 5px 5px;
+    border-color: rgb(213, 199, 251);
+    cursor: pointer;
+}
+
+#btn:hover {
+    background-color: rgb(91, 83, 213);
+    color: white;
+}
+
+#campo {
+    width: 750px;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px 5px 5px 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(213, 199, 251);
+    display: none;
+}
+
+#cadastro {
+    width: 750px;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px 5px 5px 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(213, 199, 251);
+}
+
+#grafico {
+    width: 750px;
+    background-color: white;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px 5px 5px 5px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(213, 199, 251);
+}
+
+#nome {
+    font-size: 25pt;
+    font-weight: bold;
+    padding-bottom: 18px;
+    text-align: center;
+}
+
+#endereco {
+    padding: 10px;
+    background-color: rgb(209, 187, 236);
+    margin-bottom: 18px;
+    border-radius: 5px 5px 5px 5px;
+}
+
+label {
+    display: block;
+}
+
+div > form > p {
+    font-size: 25pt;
+    font-weight: bold;
+    padding-bottom: 18px;
+    text-align: center;
+}
+
+div > form > input {
+    width: 747px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#btncad {
+    background-color: rgb(135, 155, 245);
+    width: 250px;
+    height: 45px;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    font-weight: bold;
+    border-radius: 5px 5px 5px 5px;
+    border-color: rgb(213, 199, 251);
+    border-style: solid;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 23px;
+}
+
+#btncad:hover {
+    background-color: rgb(91, 83, 213);
+    color: white;
+}
+
+#btneditarlivro {
+    background-color: rgb(135, 155, 245);
+    width: 250px;
+    height: 45px;
+    display: none;
+    margin: auto;
+    margin-top: 20px;
+    font-weight: bold;
+    border-radius: 5px 5px 5px 5px;
+    border-color: rgb(213, 199, 251);
+    border-style: solid;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 23px;
+}
+
+#btneditarlivro:hover {
+    background-color: rgb(91, 83, 213);
+    color: white;
+}
+
+#btnExcluir {
+    width: 50px;
+    height: 50px;
+    float: right;
+}
+
+#btnExcluir:hover {
+    background-color: rgba(92, 83, 213, 0.24);
+    cursor: pointer;
+}
+
+#btnEditar {
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-right: 10px;
+}
+
+#btnEditar:hover {
+    background-color: rgba(92, 83, 213, 0.24);
+    cursor: pointer;
+}
+
+#iconeLixo {
+    font-size: 30px;
+}
+
+#iconeedit {
+    font-size: 30px;
+}
+
+hr {
+    margin-top: 15px;
+}
+
+#nvlivros {
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    color:  rgb(91, 83, 213);
+    border: solid 1px rgba(0, 0, 0, 0.172);
+    padding: 3px;
+    cursor: pointer;
+}
+
+#nvlivros:hover {
+    background-color: rgba(250, 235, 215, 0.36);
+}

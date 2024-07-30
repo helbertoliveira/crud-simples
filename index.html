@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atividade JSON</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        
+        <div id="cadastro">
+            <form action="">
+                <p>Cadastro de novo livro</p>
+                <label for="">Nome:</label>
+                <input type="text" id="nomenl">
+                <label for="">Ano:</label>
+                <input type="number" id="anonl">
+                <label for="">Quantidade:</label>
+                <input type="number" id="qtdenl">
+                <label for="">Emprestados:</label>
+                <input type="number" id="empnl">
+                <br>
+                <div id="btncad">
+                    Cadastrar
+                </div>
+                <div id="btneditarlivro">
+                    Salvar Edição
+                </div>
+                <div id="nvlivros">
+                    Voltar ao cadastro de novos livros
+                </div>
+            </form>
+        </div>
+
+        <div id="grafico">
+            <canvas id="myChart"></canvas>
+        </div>
+
+        <input type="button" value="Carregar JSON" id="btn">
+        <div id="campo">
+            <div id="nome"></div>
+            <div id="endereco"></div>
+            <div id="livros"></div>
+        </div>
+        
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script type="text/javascript" src="javascript.js"></script>
+    </body>
+</html>
